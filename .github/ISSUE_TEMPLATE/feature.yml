@@ -1,0 +1,25 @@
+name: Feature request
+description: Describe a useful outcome before choosing an implementation.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User and problem
+      description: Who needs this, what triggers the need, and what is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result and important scope limits.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What observable behavior will show that this is complete?
+    validations:
+      required: true
